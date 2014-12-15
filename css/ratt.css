@@ -1,0 +1,37 @@
+.RATTnav {
+	position:absolute;
+	padding:20px 15px;
+	background-color:#DDD;
+	cursor:pointer;
+	box-shadow: 2px 2px 2px #888888;
+}
+.RATTnavleft {left:0px;display:none;}
+.RATTnavright {right:0px;}
+
+/* This is the 'viewable' container, it may be as wide as you like. It may be responisve. */
+.RATTcontainer { 
+	width:80%;
+	overflow:hidden;
+	margin: 0 auto;
+	border: 1px solid #DDD;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+/* This is the internal 'container' for all the timeline 'items'. It must have a pixel width defined. */
+.RATTslider { 
+	width:2000px;
+	height:50px;
+	background-color:#EEE;
+	margin:0 auto;
+}
+.RATTslider div {float:left;height:30px;padding:10px 0px}
+
+/* The sum of the RATTitem* divs must equal 100% */
+.RATTitem1 {width:10%;}
+.RATTitem2 {width:5%;}
+.RATTitem3 {width:10%;}
+.RATTitem4 {width:25%;}
+.RATTitem5 {width:10%;}
+.RATTitem6 {width:10%;}
+.RATTitem7 {width:15%;}
+.RATTitem8 {width:15%;}

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RATT - Really Awesome Timeline Tool</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/ratt.css">
+</head>
+
+<body>
+
+	<div class="title"><h1>RATT</h1>Really Awesome Timeline Tool</div>
+    <div class="RATTnav RATTnavleft">left</div>
+    <div class="RATTnav RATTnavright">right</div>
+	<div class="RATTcontainer">
+        <div class="RATTslider">
+                <div class="bg1 RATTitem1">Item 1</div>
+                <div class="bg2 RATTitem2">Item 2</div>
+                <div class="bg3 RATTitem3">Item 3</div>
+                <div class="bg1 RATTitem4">Item 4</div>
+                <div class="bg2 RATTitem5">Item 5</div>
+                <div class="bg3 RATTitem6">Item 6</div>
+                <div class="bg1 RATTitem7">Item 7</div>
+                <div class="bg2 RATTitem8">Item 8</div>
+        </div> <!-- RATTslider -->
+	</div> <!-- RATTcontainer -->
+    <div class="title"><a href="readme.html" target="_blank" />README</a></div>
+    
+    <div class="debug" style='position:absolute;display:none;'>
+    	sliderWidth = <span class='sliderwidthclass'></span><br />
+    	containerWidth = <span class='containerwidthclass'></span><br />
+    	negativeWidth = <span class='negativewidthclass'></span><br />
+    	sliderPos = <span class='sliderposclass'></span><br />
+    	liveDist = <span class='livedistclass'></span><br />
+        moveDist = <span class='movedistclass'></span><br />
+    	magic = <span class='magicclass'></span>
+    </div>
+    
+</body>
+
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/ratt.js"></script>
+<script>
+	$(document).ready(function() {
+		// ratt(400);
+	});
+</script>
+</html>

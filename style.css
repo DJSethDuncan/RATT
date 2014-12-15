@@ -1,0 +1,30 @@
+html, body { 
+	height:100%;
+	width:100%;
+	font-family: helvetica, arial, sans-serif;
+	color:#666;
+	font-size:11px; 
+	margin:0;
+	padding:0;
+}
+body { background-image:url('images/ratt.jpg'); }
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+h1 {padding:0;margin:0;}
+
+.title {margin:0 auto;text-align:center;padding:30px 0px;}
+
+.bg1 {background-color:#FEE;}
+.bg2 {background-color:#EFE;}
+.bg3 {background-color:#EEF;}
+
+p {font-size:14px;}
