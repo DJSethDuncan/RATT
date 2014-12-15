@@ -1,6 +1,8 @@
 RATT
 ====
 
+Demo: http://www.sethduncan.com/dev/RATT
+
 Really Awesome Timeline Tool - Create a variable-width javascript timeline with navigation through the elements.
 
 RATT is a mostly-responsive timeline tool used for projects that require an embeddable, smart tool to show a timeline that can be scrolled through article-by-article.
